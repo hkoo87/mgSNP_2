@@ -1,0 +1,36 @@
+
+# multithreading:
+THREAD=24
+THREAD_OUT=6
+THREAD_IN=4
+
+# Reference 
+# Modify the TEMP path below to the correct full paths
+REF="reference/genomes_ref.fa"
+DICT="reference/genomes_ref.dict"
+TEMP=/scratch/Test 
+
+# Program binaries
+PICARD="PATH_TO_THE_picard-tools-1.129"
+GATK="PATH_TO_THE_GenomeAnalysisTK-3.7"
+TRIMMOMATIC="PATH_TO_THE_trimmomatic-0.36.jar"
+TRIMMOMATIC_ADAPTER="PATH_TO_THE_TruSeq3-PE.fa"
+
+# Input sample file
+SAMPLES_PAIR="samples.pair"
+SAMPLES_LIST="samples.list"
+BAM_LIST="bam.list"
+GENOME_LIST="genomes.list"
+
+# Folder variable and names
+RAWDATA="RAWDATA"
+RAWDATA_QC="RAWDATA_QC"
+BWA_FILES="BWA_FILES"
+BWA_FILTERED="BWA_FILTERED"
+GATK_STEPS="GATK_STEPS"
+GATK_SNP="GATK_SNP"
+GATK_MULTISNP="GATK_MULTISNP"
+COV_STATS="COV_STATS"
+LIST_FOR_COMPARE="list_for_compare.txt"
+COMPARE="COMPARE"
+METAPHLAN="METAPHLAN"

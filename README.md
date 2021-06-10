@@ -2,6 +2,7 @@
 mgSNP_2 (metagenomic SNP) analysis.	\
 Version = 2.0	\
 Date = March 10, 2020	\
+DOI= 10.5281/zenodo.3706776 \
 Note: This workflow is an updated version (version 2.0) of mgSNP (https://github.com/ranjit58/mgSNP). 
 
 Provided scripts were written to work on SLURM cluster, thus included SLURM specific code for job submission. 
